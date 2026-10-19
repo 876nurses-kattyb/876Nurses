@@ -13,7 +13,7 @@ if (!admin.apps.length) {
 async function testCompleteWelcomeEmail() {
   const db = admin.firestore();
   
-  const firstName = 'Kadian';
+  const firstName = 'Test';
   const logoUrl = 'https://storage.googleapis.com/nurses-afb7e.firebasestorage.app/email-assets/876nurses-logo.png';
   const logoBlock = `<img src="${logoUrl}" alt="876 Nurses" style="display:block;width:80px;height:auto;border:none;outline:none;" />`;
   
@@ -119,7 +119,7 @@ async function testCompleteWelcomeEmail() {
   `;
 
   const payload = {
-    to: ['morris17kadian@gmail.com'],
+    to: ['admin@example.com'],
     subject: 'Welcome to 876 Nurses - Complete Welcome Guide',
     text: `Hi ${firstName},\n\nWe're honoured you've chosen to join our community focused on bringing quality healthcare, compassionate nursing support, and personalized care right to the comfort of your home.\n\nThank you for trusting us with your care. Let's make your health journey easier — starting now!\n\nRegards,\n876 Nurses`,
     html,

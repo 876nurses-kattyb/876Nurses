@@ -3,15 +3,15 @@ const gmailService = require('../services/gmailService');
 
 (async () => {
   try {
-    console.log('Sending test welcome email to morris.kadian@yahoo.com...\n');
+    console.log('Sending test welcome email to recipient@example.com...\n');
     const result = await gmailService.sendWelcomeEmail({
-      email: 'morris.kadian@yahoo.com',
-      name: 'Kadian Morris'
+      email: 'recipient@example.com',
+      name: 'Test User'
     });
     
     if (result.success) {
       console.log('✅ Welcome email sent successfully!');
-      console.log('Check your inbox at morris.kadian@yahoo.com\n');
+      console.log('Check your inbox at recipient@example.com\n');
     } else {
       console.log('❌ Failed to send email:', result.error);
     }

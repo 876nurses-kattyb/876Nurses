@@ -21,12 +21,12 @@ async function sendTestWelcomeEmail() {
   const recipientEmail =
     process.argv[2] ||
     process.env.TEST_EMAIL_TO ||
-    'morris17kadian@gmail.com';
+    'admin@example.com';
 
   // Test user data
   const testUser = {
     email: recipientEmail,
-    displayName: 'Kadian Thompson',
+    displayName: 'Test User',
     uid: 'test-uid-' + Date.now()
   };
 

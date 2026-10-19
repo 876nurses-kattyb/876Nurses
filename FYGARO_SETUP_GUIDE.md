@@ -13,7 +13,7 @@
 
 ### 2. Configure Backend Environment
 
-Edit `/Users/Kadian/Desktop/876nurses/backend/.env`:
+Edit `/path/to/876nurses/backend/.env`:
 
 ```bash
 # Fygaro Payment Gateway
@@ -26,7 +26,7 @@ FYGARO_TEST_MODE=true  # Set to false for production
 ### 3. Start the Backend Server
 
 ```bash
-cd /Users/Kadian/Desktop/876nurses/backend
+cd /path/to/876nurses/backend
 npm start
 ```
 

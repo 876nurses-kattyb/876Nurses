@@ -21,7 +21,7 @@ async function sendEmail() {
   // Create email message
   const message = [
     `From: "Your Name" <${SENDER_EMAIL}>`,
-    'To: morris.kadian@yahoo.com', // <-- Change this to recipient
+    'To: recipient@example.com', // <-- Change this to recipient
     'Subject: Test Email from Gmail API',
     '',
     'Hello, this is a test email sent using Gmail API!',

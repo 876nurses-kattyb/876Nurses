@@ -140,7 +140,7 @@ async function renderPdfFromHtml({ html, outPath }) {
 }
 
 async function sendTestMedicalReportAttachmentEmail() {
-  const toEmail = process.argv[2] || 'morris.kadian@yahoo.com';
+  const toEmail = process.argv[2] || 'recipient@example.com';
   const firstName = process.argv[3] || 'Morris';
 
   const subject = 'Medical Report - Test Attachment (876 Nurses)';

@@ -477,7 +477,7 @@ export default function App() {
           {/* Welcome Banner */}
           <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: '24px' }}>
             <div>
-              <h1 style={{ fontSize: '24px', fontWeight: '800', color: '#0F172A', marginBottom: '4px' }}>Good Morning, Kadian</h1>
+              <h1 style={{ fontSize: '24px', fontWeight: '800', color: '#0F172A', marginBottom: '4px' }}>Good Morning</h1>
               <p style={{ fontSize: '14px', color: '#64748B' }}>Here's what's happening with your CARE Nursing Services today.</p>
             </div>
             {/* Live Clock Card */}

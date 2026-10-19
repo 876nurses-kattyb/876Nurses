@@ -14,7 +14,7 @@ I've created a script that will:
 
 ### Step 1: Install Dependencies (if needed)
 ```bash
-cd /Users/Kadian/Desktop/876nurses
+cd /path/to/876nurses
 npm install
 ```
 

@@ -98,7 +98,7 @@ function buildPasswordResetEmail({ firstName, resetLink }) {
 }
 
 async function sendTestPasswordResetEmail() {
-  const toEmail = process.argv[2] || 'morris.kadian@yahoo.com';
+  const toEmail = process.argv[2] || 'recipient@example.com';
   const firstName = 'Test User';
   const resetLink = 'https://example.com/reset-password?token=test123';
 

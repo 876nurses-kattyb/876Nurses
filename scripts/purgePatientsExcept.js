@@ -16,10 +16,10 @@
 
 	Usage examples:
 		node scripts/purgePatientsExcept.js \
-			--keep ref@care.com,morris17kadian@gmail.com
+			--keep ref@care.com,admin@example.com
 
 		node scripts/purgePatientsExcept.js --local-only \
-			--keep ref@care.com,morris17kadian@gmail.com
+			--keep ref@care.com,admin@example.com
 */
 
 const fs = require('fs');
@@ -180,7 +180,7 @@ async function main() {
 	const args = parseArgs(process.argv);
 
 	if (!args.keep.length) {
-		console.error('❌ Missing --keep. Example: --keep ref@care.com,morris17kadian@gmail.com');
+		console.error('❌ Missing --keep. Example: --keep ref@care.com,admin@example.com');
 		process.exit(1);
 	}
 
